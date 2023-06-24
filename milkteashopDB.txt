@@ -1,0 +1,15 @@
+CREATE DATABASE `milkteashop`;
+
+CREATE TABLE `customers` (
+  `CustomerID` int NOT NULL AUTO_INCREMENT,
+  `CustomerName` varchar(45) NOT NULL,
+  `MilkTea` varchar(50) NOT NULL,
+  `SugarLevel` varchar(50) NOT NULL,
+  `Quantity` int NOT NULL,
+  `Size` varchar(45) NOT NULL,
+  `Add Ons` varchar(50) NOT NULL,
+  `Total Amount` int NOT NULL,
+  `Customer Cash` int NOT NULL,
+  `Change` float NOT NULL,
+  PRIMARY KEY (`CustomerID`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
